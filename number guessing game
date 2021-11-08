@@ -1,0 +1,19 @@
+num = 13
+i = 0
+while (i < 5):
+    inp = int(input("guess the number\n"))
+    i = i+1
+    if inp==num:
+        print("you have won in" , i , "moves\n")
+        break
+    elif inp<num:
+        print("below the number,try again")
+        print(5-i, "moves left\n")
+    elif inp>num:
+        print("above the number,try agai")
+        print(5 - i, "moves left\n")
+    else:
+        continue
+
+if i==5:
+    print("out of moves-- Game Over")
