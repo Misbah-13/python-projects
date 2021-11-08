@@ -1,0 +1,11 @@
+print("Eligibility check for driving")
+print("enter your age")
+age = int(input())
+if age>18 and age<100:
+    print("you are eligible")
+elif age==18:
+    print("can't deside,visit physically")
+elif age>7 and age<18:
+    print("not eligible")
+else:
+    print("age enter is out of range")
