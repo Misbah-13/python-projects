@@ -1,0 +1,2 @@
+dict = {"IT":"information technology" , "CSE":"computer science and engineering" , "E&C":"electronics and communication"}
+print(dict[input()])
