@@ -1,0 +1,17 @@
+# 1 way
+print("enter numbers")
+while(True):
+    i = int(input())
+    if i > 100:
+        break
+print("number greater than 100 ")
+
+# 2way
+while(True):
+    i = int(input("enter number\n"))
+    if i > 100:
+        print("congrates num grater than 100\n")
+        break
+    else:
+        print("try again\n")
+        continue
